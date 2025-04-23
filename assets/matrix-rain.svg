@@ -1,29 +1,217 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 800 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="300" viewBox="0 0 800 300">
   <style>
     text {
       font-family: 'Courier New', monospace;
       font-size: 16px;
-      fill: #00FF41; /* Matrix green */
+      fill: #00FF41;
+      font-weight: bold;
     }
   </style>
   
-  <!-- Falling Binary Characters -->
-  <text x="50" y="0">
-    <animate attributeName="y" from="0" to="200" dur="5s" repeatCount="indefinite" />
-    0101010101
-  </text>
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="black"/>
   
-  <text x="100" y="-50">
-    <animate attributeName="y" from="-50" to="200" dur="4s" repeatCount="indefinite" />
-    1010101010
-  </text>
-  
-  <!-- Add more columns as needed -->
-  <text x="150" y="-30">
-    <animate attributeName="y" from="-30" to="200" dur="6s" repeatCount="indefinite" />
-    1100101011
-  </text>
-  
-  <!-- Background (optional) -->
-  <rect width="100%" height="100%" fill="black" opacity="0.7" />
+  <!-- Binary Rain Columns -->
+  <g transform="translate(0, -20)">
+    <!-- Column 1 -->
+    <text x="50" y="0">
+      <animate attributeName="y" from="0" to="300" dur="3s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="50" y="-20">
+      <animate attributeName="y" from="-20" to="300" dur="3.5s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="50" y="-40">
+      <animate attributeName="y" from="-40" to="300" dur="4s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <!-- Column 2 -->
+    <text x="100" y="-10">
+      <animate attributeName="y" from="-10" to="300" dur="2.8s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="100" y="-30">
+      <animate attributeName="y" from="-30" to="300" dur="3.3s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="100" y="-50">
+      <animate attributeName="y" from="-50" to="300" dur="3.8s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <!-- Column 3 -->
+    <text x="150" y="-15">
+      <animate attributeName="y" from="-15" to="300" dur="3.2s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="150" y="-35">
+      <animate attributeName="y" from="-35" to="300" dur="3.7s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="150" y="-55">
+      <animate attributeName="y" from="-55" to="300" dur="4.2s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <!-- Add more columns (repeat pattern for x=200,250,300,etc.) -->
+    <text x="200" y="0">
+      <animate attributeName="y" from="0" to="300" dur="3.5s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="200" y="-20">
+      <animate attributeName="y" from="-20" to="300" dur="4s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="200" y="-40">
+      <animate attributeName="y" from="-40" to="300" dur="4.5s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <text x="250" y="-10">
+      <animate attributeName="y" from="-10" to="300" dur="3s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="250" y="-30">
+      <animate attributeName="y" from="-30" to="300" dur="3.5s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="250" y="-50">
+      <animate attributeName="y" from="-50" to="300" dur="4s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <text x="300" y="-15">
+      <animate attributeName="y" from="-15" to="300" dur="2.7s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="300" y="-35">
+      <animate attributeName="y" from="-35" to="300" dur="3.2s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="300" y="-55">
+      <animate attributeName="y" from="-55" to="300" dur="3.7s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <!-- Continue adding columns as needed -->
+    <text x="350" y="0">
+      <animate attributeName="y" from="0" to="300" dur="3.8s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="350" y="-20">
+      <animate attributeName="y" from="-20" to="300" dur="4.3s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="350" y="-40">
+      <animate attributeName="y" from="-40" to="300" dur="4.8s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <text x="400" y="-10">
+      <animate attributeName="y" from="-10" to="300" dur="3.3s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="400" y="-30">
+      <animate attributeName="y" from="-30" to="300" dur="3.8s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="400" y="-50">
+      <animate attributeName="y" from="-50" to="300" dur="4.3s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <!-- Add more columns until you cover the width -->
+    <text x="450" y="-15">
+      <animate attributeName="y" from="-15" to="300" dur="3.1s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="450" y="-35">
+      <animate attributeName="y" from="-35" to="300" dur="3.6s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="450" y="-55">
+      <animate attributeName="y" from="-55" to="300" dur="4.1s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <text x="500" y="0">
+      <animate attributeName="y" from="0" to="300" dur="3.4s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="500" y="-20">
+      <animate attributeName="y" from="-20" to="300" dur="3.9s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="500" y="-40">
+      <animate attributeName="y" from="-40" to="300" dur="4.4s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <text x="550" y="-10">
+      <animate attributeName="y" from="-10" to="300" dur="2.9s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="550" y="-30">
+      <animate attributeName="y" from="-30" to="300" dur="3.4s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="550" y="-50">
+      <animate attributeName="y" from="-50" to="300" dur="3.9s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <text x="600" y="-15">
+      <animate attributeName="y" from="-15" to="300" dur="3.3s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="600" y="-35">
+      <animate attributeName="y" from="-35" to="300" dur="3.8s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="600" y="-55">
+      <animate attributeName="y" from="-55" to="300" dur="4.3s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <text x="650" y="0">
+      <animate attributeName="y" from="0" to="300" dur="3.6s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="650" y="-20">
+      <animate attributeName="y" from="-20" to="300" dur="4.1s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="650" y="-40">
+      <animate attributeName="y" from="-40" to="300" dur="4.6s" repeatCount="indefinite"/>
+      1
+    </text>
+    
+    <text x="700" y="-10">
+      <animate attributeName="y" from="-10" to="300" dur="3.1s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="700" y="-30">
+      <animate attributeName="y" from="-30" to="300" dur="3.6s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="700" y="-50">
+      <animate attributeName="y" from="-50" to="300" dur="4.1s" repeatCount="indefinite"/>
+      0
+    </text>
+    
+    <text x="750" y="-15">
+      <animate attributeName="y" from="-15" to="300" dur="3.4s" repeatCount="indefinite"/>
+      1
+    </text>
+    <text x="750" y="-35">
+      <animate attributeName="y" from="-35" to="300" dur="3.9s" repeatCount="indefinite"/>
+      0
+    </text>
+    <text x="750" y="-55">
+      <animate attributeName="y" from="-55" to="300" dur="4.4s" repeatCount="indefinite"/>
+      1
+    </text>
+  </g>
 </svg>
