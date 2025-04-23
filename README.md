@@ -1,3 +1,4 @@
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=300&section=header&text=TERMINAL%20ACTIVATED&fontSize=70&fontColor=000000&animation=matrix&fontAlignY=40&desc=ACCESSING%20OWAIS%20SYSTEMS...&descSize=25&descAlignY=70" alt="Matrix Header" />
 </div>
@@ -8,6 +9,9 @@
   </a>
 </h1>
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ahmedowais520/ahmedowais520/main/assets/matrix-rain.svg" width="100%" />
+</div>
 <br>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
