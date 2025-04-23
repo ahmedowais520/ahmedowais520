@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="200" viewBox="0 0 800 200">
+  <style>
+    text {
+      font-family: 'Courier New', monospace;
+      font-size: 16px;
+      fill: #00FF41; /* Matrix green */
+    }
+  </style>
+  
+  <!-- Falling Binary Characters -->
+  <text x="50" y="0">
+    <animate attributeName="y" from="0" to="200" dur="5s" repeatCount="indefinite" />
+    0101010101
+  </text>
+  
+  <text x="100" y="-50">
+    <animate attributeName="y" from="-50" to="200" dur="4s" repeatCount="indefinite" />
+    1010101010
+  </text>
+  
+  <!-- Add more columns as needed -->
+  <text x="150" y="-30">
+    <animate attributeName="y" from="-30" to="200" dur="6s" repeatCount="indefinite" />
+    1100101011
+  </text>
+  
+  <!-- Background (optional) -->
+  <rect width="100%" height="100%" fill="black" opacity="0.7" />
+</svg>
