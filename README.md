@@ -3,15 +3,14 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=300&section=header&text=TERMINAL%20ACTIVATED&fontSize=70&fontColor=000000&animation=matrix&fontAlignY=40&desc=ACCESSING%20OWAIS%20SYSTEMS...&descSize=25&descAlignY=70" alt="Matrix Header" />
 </div>
 
+
 <h1 align="center">
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&weight=900&size=35&duration=4000&pause=1000&color=00FF41&background=000000&center=true&vCenter=true&width=900&height=100&lines=root%40ahmedowais520%3A~%24+WHOAMI;CYBER+SECURITY+SPECIALIST;PENETRATION+TESTER;FULL-STACK+ENGINEER;OPEN-SOURCE+DEVELOPER;ETHICAL+HACKER;TOP+1%25+TRYHACKME;CTF+PLAYER" alt="Matrix Typing Effect" />
   </a>
 </h1>
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/ahmedowais520/ahmedowais520/main/assets/matrix-rain.svg" width="100%" />
-</div>
+
 <br>
 
 <div align="center" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
@@ -41,6 +40,10 @@
   </div>
   <div>
   <br><br>
+<br>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ahmedowais520/ahmedowais520/main/assets/matrix-rain.svg" width="100%" />
+</div>
 <br>
 
 <h2 align="center" style="color: #00FF41; font-family: 'JetBrains Mono', monospace; text-shadow: 0 0 5px #00FF41;">🔮 CYBER WARFARE TOOLKIT 🔮</h2>
